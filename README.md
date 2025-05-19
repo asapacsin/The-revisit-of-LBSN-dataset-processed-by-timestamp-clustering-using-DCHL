@@ -1,4 +1,4 @@
-This project is the combined of two paper. FGCRec: Fine-Grained Geographical Characteristics Modeling for Point-of-Interest Recommendation[1] and Disentangled Contrastive Hypergraph Learning for Next POI[2] Recommendation. Where the method and code base is come from the [2] and dataset is given by [1]. Where the experiment reveals that the [2] method significantly enhance the performance of [1] given by the processed dataset.
+This project is the combined of two paper. FGCRec: Fine-Grained Geographical Characteristics Modeling for Point-of-Interest Recommendation[1] and Disentangled Contrastive Hypergraph Learning for Next POI[2] Recommendation. Where the method and code base is come from the [2] and dataset is given by [1]. Where the experiment reveals that the [2] method significantly enhance the performance of [1] given by the processed dataset from 0.04 to 0.21 in Recall top 10.
 
 For generally use, please rewrite the code path to direct to a proper location.
 
