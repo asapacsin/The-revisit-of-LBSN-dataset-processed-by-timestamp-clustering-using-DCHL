@@ -2,9 +2,7 @@ This project is the combined of two paper. FGCRec: Fine-Grained Geographical Cha
 
 For generally use, please rewrite the code path to direct to a proper location.
 
-Code for start training: python3 run.py --dataset NYC python3 run.py --dataset TKY python3 run.py --dataset FGCREC
 
-The ppt that illustrates the whole project’s name starts with groupA
 
 
 ![DCHL Model](./img/DCHL.png)
