@@ -1,0 +1,8 @@
+2025-05-17 17:32:28 1. Parse Arguments
+2025-05-17 17:32:28 Namespace(dataset='FGCREC', seed=2023, distance_threshold=2.5, num_epochs=30, batch_size=200, emb_dim=128, lr=0.001, decay=0.0005, dropout=0.3, deviceID=0, lambda_cl=0.1, num_mv_layers=3, num_geo_layers=3, num_di_layers=3, temperature=0.1, keep_rate=1, keep_rate_poi=1, lr_scheduler_factor=0.1, save_dir='logs')
+2025-05-17 17:32:28 device: cuda:0
+2025-05-17 17:32:28 2. Load Dataset
+2025-05-17 17:37:44 3. Construct DataLoader
+2025-05-17 17:37:44 4. Load Model
+2025-05-17 17:37:44 5. Start Training
+2025-05-17 17:37:44 ================= Epoch 0/30 =================

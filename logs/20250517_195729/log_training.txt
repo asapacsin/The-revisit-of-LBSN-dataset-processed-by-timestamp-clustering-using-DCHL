@@ -1,0 +1,18 @@
+2025-05-17 19:57:29 1. Parse Arguments
+2025-05-17 19:57:29 Namespace(dataset='FGCREC', seed=2023, distance_threshold=2.5, num_epochs=30, batch_size=200, emb_dim=128, lr=0.001, decay=0.0005, dropout=0.3, deviceID=0, lambda_cl=0.1, num_mv_layers=3, num_geo_layers=3, num_di_layers=3, temperature=0.1, keep_rate=1, keep_rate_poi=1, lr_scheduler_factor=0.1, save_dir='logs')
+2025-05-17 19:57:29 device: cuda:0
+2025-05-17 19:57:29 2. Load Dataset
+2025-05-17 20:02:44 3. Construct DataLoader
+2025-05-17 20:02:44 4. Load Model
+2025-05-17 20:02:45 5. Start Training
+2025-05-17 20:02:45 ================= Epoch 0/30 =================
+2025-05-17 20:02:45 Train. Batch 0/38
+2025-05-17 20:02:46 Train. loss_rec: 9.7456; loss_cl_pois: 6.7807; loss_cl_users: 0.3466; loss: 10.4583
+2025-05-17 20:02:46 Train. Batch 1/38
+2025-05-17 20:02:47 Train. loss_rec: 9.5895; loss_cl_pois: 7.0918; loss_cl_users: 1.3107; loss: 10.4298
+2025-05-17 20:02:47 Train. Batch 2/38
+2025-05-17 20:02:47 Train. loss_rec: 9.2304; loss_cl_pois: 7.0301; loss_cl_users: 1.3156; loss: 10.0650
+2025-05-17 20:02:47 Train. Batch 3/38
+2025-05-17 20:02:47 Train. loss_rec: 9.0150; loss_cl_pois: 7.1930; loss_cl_users: 1.5485; loss: 9.8891
+2025-05-17 20:02:48 Train. Batch 4/38
+2025-05-17 20:02:48 Train. loss_rec: 8.9047; loss_cl_pois: 7.4448; loss_cl_users: 1.7373; loss: 9.8229

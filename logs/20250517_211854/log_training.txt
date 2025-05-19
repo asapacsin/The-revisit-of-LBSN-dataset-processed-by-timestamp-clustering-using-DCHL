@@ -1,0 +1,102 @@
+2025-05-17 21:18:54 1. Parse Arguments
+2025-05-17 21:18:54 Namespace(dataset='FGCREC', seed=2023, distance_threshold=2.5, num_epochs=30, batch_size=200, emb_dim=128, lr=0.001, decay=0.0005, dropout=0.3, deviceID=0, lambda_cl=0.1, num_mv_layers=3, num_geo_layers=3, num_di_layers=3, temperature=0.1, keep_rate=1, keep_rate_poi=1, lr_scheduler_factor=0.1, save_dir='logs')
+2025-05-17 21:18:54 device: cuda:0
+2025-05-17 21:18:54 2. Load Dataset
+2025-05-17 21:24:13 3. Construct DataLoader
+2025-05-17 21:24:13 4. Load Model
+2025-05-17 21:24:14 5. Start Training
+2025-05-17 21:24:14 ================= Epoch 0/30 =================
+2025-05-17 21:24:14 Train. Batch 0/38
+2025-05-17 21:24:14 Train. loss_rec: 9.7858; loss_cl_pois: 6.7860; loss_cl_users: 0.3476; loss: 10.4992
+2025-05-17 21:24:14 Train. Batch 1/38
+2025-05-17 21:24:14 Train. loss_rec: 9.5696; loss_cl_pois: 7.0499; loss_cl_users: 1.1291; loss: 10.3875
+2025-05-17 21:24:15 Train. Batch 2/38
+2025-05-17 21:24:15 Train. loss_rec: 9.2914; loss_cl_pois: 7.0233; loss_cl_users: 1.3497; loss: 10.1287
+2025-05-17 21:24:15 Train. Batch 3/38
+2025-05-17 21:24:15 Train. loss_rec: 9.0142; loss_cl_pois: 7.1851; loss_cl_users: 1.6072; loss: 9.8934
+2025-05-17 21:24:16 Train. Batch 4/38
+2025-05-17 21:24:16 Train. loss_rec: 8.8974; loss_cl_pois: 7.4314; loss_cl_users: 1.7457; loss: 9.8151
+2025-05-17 21:24:16 Train. Batch 5/38
+2025-05-17 21:24:16 Train. loss_rec: 8.8032; loss_cl_pois: 7.6571; loss_cl_users: 1.8933; loss: 9.7583
+2025-05-17 21:24:16 Train. Batch 6/38
+2025-05-17 21:24:17 Train. loss_rec: 8.7242; loss_cl_pois: 7.8262; loss_cl_users: 2.1753; loss: 9.7243
+2025-05-17 21:24:17 Train. Batch 7/38
+2025-05-17 21:24:17 Train. loss_rec: 8.6108; loss_cl_pois: 7.9523; loss_cl_users: 2.5678; loss: 9.6628
+2025-05-17 21:24:17 Train. Batch 8/38
+2025-05-17 21:24:17 Train. loss_rec: 8.5977; loss_cl_pois: 8.0494; loss_cl_users: 2.1844; loss: 9.6211
+2025-05-17 21:24:18 Train. Batch 9/38
+2025-05-17 21:24:18 Train. loss_rec: 8.5519; loss_cl_pois: 8.1378; loss_cl_users: 1.9585; loss: 9.5615
+2025-05-17 21:24:18 Train. Batch 10/38
+2025-05-17 21:24:18 Train. loss_rec: 8.4462; loss_cl_pois: 8.1964; loss_cl_users: 2.4646; loss: 9.5123
+2025-05-17 21:24:18 Train. Batch 11/38
+2025-05-17 21:24:19 Train. loss_rec: 8.4251; loss_cl_pois: 8.2524; loss_cl_users: 2.1262; loss: 9.4630
+2025-05-17 21:24:19 Train. Batch 12/38
+2025-05-17 21:24:19 Train. loss_rec: 8.4899; loss_cl_pois: 8.2786; loss_cl_users: 2.1420; loss: 9.5320
+2025-05-17 21:24:19 Train. Batch 13/38
+2025-05-17 21:24:19 Train. loss_rec: 8.5243; loss_cl_pois: 8.2799; loss_cl_users: 2.1471; loss: 9.5670
+2025-05-17 21:24:20 Train. Batch 14/38
+2025-05-17 21:24:20 Train. loss_rec: 8.5064; loss_cl_pois: 8.2779; loss_cl_users: 2.1612; loss: 9.5503
+2025-05-17 21:24:20 Train. Batch 15/38
+2025-05-17 21:24:20 Train. loss_rec: 8.4572; loss_cl_pois: 8.2538; loss_cl_users: 2.1652; loss: 9.4991
+2025-05-17 21:24:21 Train. Batch 16/38
+2025-05-17 21:24:21 Train. loss_rec: 8.5483; loss_cl_pois: 8.2236; loss_cl_users: 2.0061; loss: 9.5713
+2025-05-17 21:24:21 Train. Batch 17/38
+2025-05-17 21:24:21 Train. loss_rec: 8.6232; loss_cl_pois: 8.1904; loss_cl_users: 1.9635; loss: 9.6386
+2025-05-17 21:24:21 Train. Batch 18/38
+2025-05-17 21:24:21 Train. loss_rec: 8.3580; loss_cl_pois: 8.1606; loss_cl_users: 2.0205; loss: 9.3761
+2025-05-17 21:24:22 Train. Batch 19/38
+2025-05-17 21:24:22 Train. loss_rec: 8.3780; loss_cl_pois: 8.1244; loss_cl_users: 2.1895; loss: 9.4094
+2025-05-17 21:24:22 Train. Batch 20/38
+2025-05-17 21:24:22 Train. loss_rec: 8.4680; loss_cl_pois: 8.0941; loss_cl_users: 1.9622; loss: 9.4736
+2025-05-17 21:24:23 Train. Batch 21/38
+2025-05-17 21:24:23 Train. loss_rec: 8.2559; loss_cl_pois: 8.0626; loss_cl_users: 2.0565; loss: 9.2678
+2025-05-17 21:24:23 Train. Batch 22/38
+2025-05-17 21:24:23 Train. loss_rec: 8.4936; loss_cl_pois: 8.0462; loss_cl_users: 2.0517; loss: 9.5034
+2025-05-17 21:24:23 Train. Batch 23/38
+2025-05-17 21:24:24 Train. loss_rec: 8.4991; loss_cl_pois: 8.0164; loss_cl_users: 1.7716; loss: 9.4779
+2025-05-17 21:24:24 Train. Batch 24/38
+2025-05-17 21:24:24 Train. loss_rec: 8.5355; loss_cl_pois: 7.9953; loss_cl_users: 1.6909; loss: 9.5042
+2025-05-17 21:24:24 Train. Batch 25/38
+2025-05-17 21:24:24 Train. loss_rec: 8.3346; loss_cl_pois: 7.9729; loss_cl_users: 2.0937; loss: 9.3413
+2025-05-17 21:24:25 Train. Batch 26/38
+2025-05-17 21:24:25 Train. loss_rec: 8.2841; loss_cl_pois: 7.9570; loss_cl_users: 2.0014; loss: 9.2800
+2025-05-17 21:24:25 Train. Batch 27/38
+2025-05-17 21:24:25 Train. loss_rec: 8.4080; loss_cl_pois: 7.9461; loss_cl_users: 1.8397; loss: 9.3865
+2025-05-17 21:24:25 Train. Batch 28/38
+2025-05-17 21:24:26 Train. loss_rec: 8.5137; loss_cl_pois: 7.9317; loss_cl_users: 2.0178; loss: 9.5086
+2025-05-17 21:24:26 Train. Batch 29/38
+2025-05-17 21:24:26 Train. loss_rec: 8.3326; loss_cl_pois: 7.9165; loss_cl_users: 1.8697; loss: 9.3112
+2025-05-17 21:24:26 Train. Batch 30/38
+2025-05-17 21:24:26 Train. loss_rec: 8.2455; loss_cl_pois: 7.9086; loss_cl_users: 1.9138; loss: 9.2278
+2025-05-17 21:24:27 Train. Batch 31/38
+2025-05-17 21:24:27 Train. loss_rec: 8.3409; loss_cl_pois: 7.9020; loss_cl_users: 2.0284; loss: 9.3340
+2025-05-17 21:24:27 Train. Batch 32/38
+2025-05-17 21:24:27 Train. loss_rec: 8.3664; loss_cl_pois: 7.8853; loss_cl_users: 2.1494; loss: 9.3698
+2025-05-17 21:24:28 Train. Batch 33/38
+2025-05-17 21:24:28 Train. loss_rec: 8.3997; loss_cl_pois: 7.8851; loss_cl_users: 1.8710; loss: 9.3753
+2025-05-17 21:24:28 Train. Batch 34/38
+2025-05-17 21:24:28 Train. loss_rec: 8.3219; loss_cl_pois: 7.8778; loss_cl_users: 1.7394; loss: 9.2836
+2025-05-17 21:24:28 Train. Batch 35/38
+2025-05-17 21:24:28 Train. loss_rec: 8.5938; loss_cl_pois: 7.8798; loss_cl_users: 1.7990; loss: 9.5617
+2025-05-17 21:24:29 Train. Batch 36/38
+2025-05-17 21:24:29 Train. loss_rec: 8.4235; loss_cl_pois: 7.8750; loss_cl_users: 1.7552; loss: 9.3866
+2025-05-17 21:24:29 Train. Batch 37/38
+2025-05-17 21:24:29 Train. loss_rec: 8.5568; loss_cl_pois: 7.8710; loss_cl_users: 0.6473; loss: 9.4087
+2025-05-17 21:24:29 Training finishes at this epoch. It takes 0.2644737760225932 min
+2025-05-17 21:24:29 Training loss: 9.5572
+2025-05-17 21:24:29 Training Epoch 0/30 results:
+2025-05-17 21:24:29 Recall@1: 0.0281
+2025-05-17 21:24:29 NDCG@1: 0.0281
+2025-05-17 21:24:29 Recall@5: 0.0768
+2025-05-17 21:24:29 NDCG@5: 0.0527
+2025-05-17 21:24:29 Recall@10: 0.1119
+2025-05-17 21:24:29 NDCG@10: 0.0640
+2025-05-17 21:24:29 Recall@20: 0.1591
+2025-05-17 21:24:29 NDCG@20: 0.0758
+2025-05-17 21:24:29 
+
+2025-05-17 21:24:29 Testing
+2025-05-17 21:24:29 Test. Batch 0/38
+2025-05-17 21:24:30 Test. loss_rec: 8.6062; loss_cl_pois: 8.4405; loss_cl_users: 0.8364; loss: 9.5339
+2025-05-17 21:24:30 Test. Batch 1/38
+2025-05-17 21:24:30 Test. loss_rec: 8.4428; loss_cl_pois: 8.4429; loss_cl_users: 0.8568; loss: 9.3727

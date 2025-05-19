@@ -1,0 +1,60 @@
+2025-05-15 21:09:04 1. Parse Arguments
+2025-05-15 21:09:04 Namespace(dataset='NYC', seed=2023, distance_threshold=2.5, num_epochs=30, batch_size=200, emb_dim=128, lr=0.001, decay=0.0005, dropout=0.3, deviceID=0, lambda_cl=0.1, num_mv_layers=3, num_geo_layers=3, num_di_layers=3, temperature=0.1, keep_rate=1, keep_rate_poi=1, lr_scheduler_factor=0.1, save_dir='logs')
+2025-05-15 21:09:04 device: cuda:0
+2025-05-15 21:09:04 2. Load Dataset
+2025-05-15 21:09:10 3. Construct DataLoader
+2025-05-15 21:09:10 4. Load Model
+2025-05-15 21:09:11 5. Start Training
+2025-05-15 21:09:11 ================= Epoch 0/30 =================
+2025-05-15 21:09:11 Train. Batch 0/5
+2025-05-15 21:09:11 Train. loss_rec: 7.8237; loss_cl_pois: 2.4395; loss_cl_users: 0.5387; loss: 8.1215
+2025-05-15 21:09:11 Train. Batch 1/5
+2025-05-15 21:09:11 Train. loss_rec: 7.8004; loss_cl_pois: 2.3936; loss_cl_users: 0.3491; loss: 8.0747
+2025-05-15 21:09:11 Train. Batch 2/5
+2025-05-15 21:09:11 Train. loss_rec: 7.7709; loss_cl_pois: 2.3969; loss_cl_users: 0.3290; loss: 8.0435
+2025-05-15 21:09:11 Train. Batch 3/5
+2025-05-15 21:09:11 Train. loss_rec: 7.6701; loss_cl_pois: 2.4063; loss_cl_users: 0.3484; loss: 7.9456
+2025-05-15 21:09:11 Train. Batch 4/5
+2025-05-15 21:09:11 Train. loss_rec: 7.6491; loss_cl_pois: 2.4140; loss_cl_users: 0.0548; loss: 7.8960
+2025-05-15 21:09:11 Training finishes at this epoch. It takes 0.00851373275121053 min
+2025-05-15 21:09:11 Training loss: 8.0162
+2025-05-15 21:09:11 Training Epoch 0/30 results:
+2025-05-15 21:09:11 Recall@1: 0.0468
+2025-05-15 21:09:11 NDCG@1: 0.0468
+2025-05-15 21:09:11 Recall@5: 0.1691
+2025-05-15 21:09:11 NDCG@5: 0.1080
+2025-05-15 21:09:11 Recall@10: 0.2438
+2025-05-15 21:09:11 NDCG@10: 0.1323
+2025-05-15 21:09:11 Recall@20: 0.2995
+2025-05-15 21:09:11 NDCG@20: 0.1466
+2025-05-15 21:09:11 
+
+2025-05-15 21:09:11 Testing
+2025-05-15 21:09:11 Test. Batch 0/5
+2025-05-15 21:09:11 Test. loss_rec: 7.5096; loss_cl_pois: 2.9252; loss_cl_users: 0.3569; loss: 7.8378
+2025-05-15 21:09:11 Test. Batch 1/5
+2025-05-15 21:09:11 Test. loss_rec: 7.5607; loss_cl_pois: 2.9214; loss_cl_users: 0.3485; loss: 7.8877
+2025-05-15 21:09:11 Test. Batch 2/5
+2025-05-15 21:09:11 Test. loss_rec: 7.5019; loss_cl_pois: 2.9255; loss_cl_users: 0.3557; loss: 7.8301
+2025-05-15 21:09:11 Test. Batch 3/5
+2025-05-15 21:09:11 Test. loss_rec: 7.5194; loss_cl_pois: 2.9113; loss_cl_users: 0.3227; loss: 7.8428
+2025-05-15 21:09:11 Test. Batch 4/5
+2025-05-15 21:09:11 Test. loss_rec: 7.4198; loss_cl_pois: 2.9255; loss_cl_users: 0.0415; loss: 7.7165
+2025-05-15 21:09:11 Testing finishes
+2025-05-15 21:09:11 Testing loss: 7.822977828979492
+2025-05-15 21:09:11 Testing results:
+2025-05-15 21:09:11 Recall@1: 0.1093
+2025-05-15 21:09:11 NDCG@1: 0.1093
+2025-05-15 21:09:11 Recall@5: 0.2587
+2025-05-15 21:09:11 NDCG@5: 0.1876
+2025-05-15 21:09:11 Recall@10: 0.3146
+2025-05-15 21:09:11 NDCG@10: 0.2062
+2025-05-15 21:09:11 Recall@20: 0.3456
+2025-05-15 21:09:11 NDCG@20: 0.2142
+2025-05-15 21:09:11 Update test results and save model at epoch0
+2025-05-15 21:09:11 ==================================
+
+
+2025-05-15 21:09:11 ================= Epoch 1/30 =================
+2025-05-15 21:09:12 Train. Batch 0/5
+2025-05-15 21:09:12 Train. loss_rec: 6.9971; loss_cl_pois: 2.4138; loss_cl_users: 0.3158; loss: 7.2701
